@@ -110,6 +110,12 @@ form[action$="destroy"] button {
   flex-direction: column;
 }
 
+@media only screen and (max-width: 600px) {
+  #sidebar {
+    display: none;
+  }
+}
+
 #sidebar > * {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -240,7 +246,6 @@ i {
 
 #detail {
   flex: 1;
-  padding: 2rem 4rem;
   width: 100%;
 }
 

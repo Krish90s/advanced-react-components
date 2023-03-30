@@ -7,7 +7,8 @@ export default function Question1() {
 
   function handleSubmit() {
     let ids = getIds(selectedItems);
-    console.log(ids);
+    console.log("selected ids", ids);
+    console.log("state", selectedItems);
   }
   return (
     <div className="p-2">

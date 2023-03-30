@@ -8,6 +8,7 @@ import "bootstrap/dist/js/bootstrap.js";
 import Root from "./routes/root";
 import ErrorPage from "./pages/ErrorPage";
 import Question1 from "./pages/Question1";
+import Question2 from "./pages/Question2";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "components/1",
         element: <Question1 />,
+      },
+      {
+        path: "components/2",
+        element: <Question2 />,
       },
     ],
   },
